@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS jobs (
+    id UUID PRIMARY KEY,
+    title VARCHAR(120) NOT NULL,
+    description VARCHAR(2000)
+);
